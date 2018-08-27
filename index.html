@@ -1,0 +1,142 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>NemoSecurity</title>
+	<link href="index_files/style.css" rel="stylesheet" type="text/css">
+	<link href="index_files/960.css" rel="stylesheet" type="text/css">
+	<link href="index_files/tab.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div id="shim"></div>
+	<div id="content">
+	<div class="logo_box">
+		<img src="index_files/PT.png" width="300px" height="115px"><br><br><br>
+
+		<!-- tab -->
+		<div class="tab">
+		<button class="tablinks" onclick="openCity(event, 'product')">Product</button>
+		<button class="tablinks" onclick="openCity(event, 'services')">Services</button>
+		<button class="tablinks" onclick="openCity(event, 'about')">About</button>
+		</div>
+		
+		<div id="product" class="tabcontent">
+			<h3>Our Product</h3><br><br>
+			<div class="tab">
+			<p>	
+				<button class="tablinks" onclick="openCity(event, 'govwa')">GoVWA</button>
+				<button class="tablinks" onclick="openCity(event, 'nvwa')">NVWA</button>
+			</p></div></div>
+		
+		
+
+		  <div id="services" class="tabcontent">
+			<h3>Services</h3><br><br>
+			<div class="tab"><p>
+				<button class="tablinks" onclick="openCity(event, 'pentest')">PENETRATION TESTING</button>
+				<button class="tablinks" onclick="openCity(event, 'assessment')">SECURITY ASSESSMENT</button>
+				<button class="tablinks" onclick="openCity(event, 'training')">SECURITY TRAINING</button>
+			</p></div>
+		  </div>
+		  
+		  
+		  
+		  <script>
+		  function openCity(evt, cityName) {
+			  var i, tabcontent, tablinks;
+			  tabcontent = document.getElementsByClassName("tabcontent");
+			  for (i = 0; i < tabcontent.length; i++) {
+				  tabcontent[i].style.display = "none";
+			  }
+			  tablinks = document.getElementsByClassName("tablinks");
+			  for (i = 0; i < tablinks.length; i++) {
+				  tablinks[i].className = tablinks[i].className.replace(" active", "");
+			  }
+			  document.getElementById(cityName).style.display = "block";
+			  evt.currentTarget.className += " active";
+		  }
+		  </script>
+			   
+	</div>          
+	<div class="main_box">
+			<h2>
+			<p class="one">
+				Your Security is Our Concern<br><span>PT Sekuriti Siber Indonesia menyediakan Solusi Keamanan Teknologi Informasi seperti Penetration Testing, Security Assessment, dan Security Training</span>
+			</p></h2>
+		
+		
+		<ul class="info">
+
+<div id="govwa" class="tabcontent">
+	<h3>GoVWA (Go Vulnerable Web Application) </h3>
+		<p>GoVWA adalah aplikasi web yang dikembangkan untuk membantu pentester dan programmer untuk mempelajari kerentanan yang sering terjadi dalam aplikasi web yang dikembangkan menggunakan golang. Kerentanan yang ada di GoVWA adalah kerentanan yang paling umum ditemukan dalam aplikasi web saat ini. Jadi ini akan membantu programmer mengenali kerentanan sebelum terjadi pada aplikasi mereka. Govwa juga bisa menjadi aplikasi tambahan dari laboratorium pentest Anda untuk belajar dan mengajar. 
+		GoVWA bisa di unduh di link berikut : <a href="https://github.com/0c34/govwa" target="_blank">GoVWA</a> </p>
+ </div>
+
+ <div id="nvwa" class="tabcontent">
+		<h3>NVWA (NemoSec Vulnerable Web Application) </h3>
+			<p>NVWA adalah aplikasi web yang dikembangkan untuk membantu pentester dan programmer untuk mempelajari kerentanan yang sering terjadi dalam aplikasi web yang dikembangkan menggunakan PHP. Kerentanan yang ada di NVWA adalah kerentanan yang paling umum ditemukan dalam aplikasi web saat ini. Jadi ini akan membantu programmer mengenali kerentanan sebelum terjadi pada aplikasi mereka. NVWA juga bisa menjadi aplikasi tambahan dari laboratorium pentest Anda untuk belajar dan mengajar. 
+			NVWA bisa di unduh di link berikut : <a href="https://github.com/0c34/nemo-sec" target="_blank">NVWA</a> </p>
+	 </div>
+
+ <div id="pentest" class="tabcontent">
+	<h3>Penetration Testing</h3>
+	<p>Kami di NemoSecurity adalah para practical security yang berpengalaman dan bersertifikat internasional. Dengan pola pikir yang terbentuk dari pengalaman bekerja di bidang security dan penggunaan alat teknologi yang berkualitas, kami memberikan hasil yang berkualitas dengan harga yang kompetitif.</p>
+  </div>
+
+  <div id="assessment" class="tabcontent">
+		<h3>Security Assessment</h3>
+		<p>Mengidentifikasi vulnerability melalui layanan NemoSecurity assessment untuk memastikan teknologi, kebijakan dan prosedur dirancang secara aman dengan berkonsultasi dengan konsultan kami.</p>
+	  </div>
+
+  <div id="training" class="tabcontent">
+		<h3>Security Training</h3>
+		<p>NemoSecurity juga membuka pelatihan yang ditujukan untuk pemula dan menengah</p>
+	  </div>
+ 
+  <div id="about" class="tabcontent">
+		<h3>About Us</h3>
+		<p>Kami di NemoSecurity adalah para practical security yang berpengalaman dan bersertifikat internasional. Dengan pola pikir yang terbentuk dari pengalaman bekerja di bidang security dan penggunaan alat teknologi yang berkualitas, kami memberikan hasil yang berkualitas dengan harga yang kompetitif.
+		<br>
+		<br>
+		<li><table class="table">
+
+				<tr>
+				  <td><font color="red">Email </font></td>
+				  
+				  <td><font color="red">&nbsp;:</font></td>
+				  
+				  <td>&nbsp;sales@nemosecurity.com</td>
+				</tr>
+							  
+			  </table></li>
+		</p>
+	  </div>
+ <script>
+	function openCity(evt, cityName) {
+		var i, tabcontent, tablinks;
+		tabcontent = document.getElementsByClassName("tabcontent");
+		for (i = 0; i < tabcontent.length; i++) {
+			tabcontent[i].style.display = "none";
+		}
+		tablinks = document.getElementsByClassName("tablinks");
+		for (i = 0; i < tablinks.length; i++) {
+			tablinks[i].className = tablinks[i].className.replace(" active", "");
+		}
+		document.getElementById(cityName).style.display = "block";
+		evt.currentTarget.className += " active";
+	}
+	</script>
+
+			
+			
+		</ul>
+	</div>
+</div>
+
+<div class="footer">
+	<p>All Rights Reserved 2018 © PT Sekuriti Siber Indonesia</p>
+  </div>
+
+
+</body></html>
